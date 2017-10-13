@@ -10,5 +10,5 @@ Remember to use 'single quotes' so that command substitutions aren't executed wh
 ::
 
   alias gittag='git tag -a v$(python setup.py --version)'
-  alias gitpush='git push --tags'
+  alias gitpush='git push --follow-tags'
   
